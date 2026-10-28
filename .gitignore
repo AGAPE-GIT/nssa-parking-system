@@ -1,0 +1,16 @@
+# Dependencies (reinstalled with npm run setup)
+node_modules/
+
+# Build output
+dist/
+
+# Secrets - copy backend/.env.example to backend/.env instead
+.env
+
+# Local database - recreated and seeded automatically on first start
+backend/src/db/*.db
+backend/src/db/*.db-journal
+backend/src/db/backups/
+
+# Logs
+*.log
